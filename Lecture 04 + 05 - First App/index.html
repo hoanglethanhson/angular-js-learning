@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang= "en" ng-app="myFirstApp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <script id="__bs_script__">//<![CDATA[
+        document.write("<script async src='http://HOST:3002/browser-sync/browser-sync-client.js?v=2.26.14'><\/script>".replace("HOST", location.hostname));
+    //]]></script>
+    <title>My first Angular JS App</title>
+</head>
+<body>
+    <h1>My first Angular JS App</h1>
+    <div ng-controller="MyFirstController">
+        <input type="text" ng-model="name">
+        Inside my input is: {{name}}
+    </div>
+</body>
+</html>
